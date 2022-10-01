@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Langexplain">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="81dp"
+        android:layout_height="24dp"
+        android:text="출몰지역:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="81dp"
+        android:layout_height="24dp"
+        android:text="병원기록:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="81dp"
+        android:layout_height="24dp"
+        android:text="주의사항:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841"
+        tools:layout_editor_absoluteX="45dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="166dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="랑이"
+        android:textColor="#FFC107"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*정보"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:text="성별: "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:text="나이:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="공주님"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14학번이상"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인사관~정문"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:text="최근 무릎 염증 발생 입원 치료 내원중 철조망에 걸려 생긴 깊은 상처 발견 후 봉합수술 까지 받음"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:text="염증+퇴행성 관절염이 도질수 있어  궁디팡팡 자제 "
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
