@@ -2,8 +2,6 @@
 
 슈냥이(고양이) 인식 및 케어 어플
 
-# 슈냥이(고양이) 인식 및 케어 어플
-
 ![image](https://github.com/moonsoo20/Cat_careApp/assets/98132695/8289c586-8980-4471-951e-65d9aa6a3f39)
 
 
@@ -15,6 +13,13 @@
 - 주제: 학교에 있는 고양이인 슈냥이 인식 및 케어 어플
 - Teachable Machine 사용
 - IPACT의 JCCP 5월자 논문에 등록
+
+## 사용한 기술스택
+Android studio
+Teachable Machine
+FireBase
+javae
+
 
 ## 개발 동기
 
